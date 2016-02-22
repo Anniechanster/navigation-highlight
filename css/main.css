@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: "Georgia";
 }
 
 *, *::before, *::after {
@@ -8,13 +8,28 @@ html {
 }
 
 h1 {
-  color: #2f2d13;
-  font-family: Sigmar One;
+  color: #cc1465;
+  font-family: "Sigmar One", cursive;
   font-size: 3rem;
+  text-align: center;
 }
 
 h2 {
-  color: #2f2d13;
-  font-family: Sigmar One;
+  color: #cc1465;
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
+}
+
+header {
+  background: #ffe500;
+}
+
+footer {
+  background: #ffe500;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+main {
+  line-height: 1.5rem;
 }
