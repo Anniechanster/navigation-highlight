@@ -49,15 +49,21 @@ nav li {
   background-color: #b2a212;
   display: inline-block;
   border-radius: 3px;
-  padding: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 a {
   color: white;
+  display: inline-block;
   text-decoration: none;
+  border-radius: 3px;
+  padding: 0.5rem;
 }
 
 nav ul :hover {
   background-color: #cc1465;
+}
+
+nav .current {
+  background-color: #b20953;
 }
